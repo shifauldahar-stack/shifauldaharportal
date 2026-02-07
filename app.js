@@ -21,7 +21,8 @@ const firebaseConfig = {
   measurementId: "G-VL4TDJJ79L"
 };
 
-const LOGO_URL = "https://raw.githubusercontent.com/shifauldahar/Record-keeping/b3a3663fe8ce92d63a3275c7395433a387d9230e/logo1.png";
+const LOGO_URL = "https://raw.githubusercontent.com/shifauldahar-stack/shifauldaharportal/b09e370192a23a3f2de4d0ea4a0eb3f37023b6ce/logo1.png
+";
 
 // =========================
 // GLOBAL ERROR CATCHERS
@@ -849,4 +850,5 @@ function renderAll() {
 setMedicineFormToNextFromFirebase(); // temporary until firebase loads
 renderAll();
 startRealtime();
+
 // ok
